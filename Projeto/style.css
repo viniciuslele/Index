@@ -1,0 +1,62 @@
+body {
+	background-image: url(http://sinafresp.org.br/wp-content/uploads/2016/09/engrenagem.jpg);
+	background-size:100%;
+	background-repeat: no-repeat;
+	padding: 25px;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: red;
+	position: sticky;
+}
+
+li {
+	display: inline-block;
+	padding: 14px;
+	font-weight: 100;
+}
+
+li a {
+	color: white;
+	font-weight: bold;
+}
+
+.sobre {
+}
+
+.interesses {
+}
+
+.contato {
+	border: 1px solid red;
+  	padding: 40px 0px;
+  	position: relative;
+  	width: 100%;
+  	text-align: center;
+}
+
+.contato a {
+	background: red;
+ 	border: 1px solid red;
+  	border-radius: 3px;
+  	color: white;
+  	display: inline-block;
+  	text-decoration: none;
+}
+
+.contato a:hover {
+	background: white;
+  	border: 1px solid red;
+  	color: red;
+}
+
+footer {
+	background-color: red;
+	position: sticky;
+	text-align: center;
+	color: white;
+}
